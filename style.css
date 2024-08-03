@@ -1,0 +1,99 @@
+* {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* BUTTONS SECTION */
+
+.btn-not-active {
+  font-size: 16px;
+  font-weight: 600;
+  color: #afafaf;
+  padding: 1em;
+  border: 1px solid #afafaf;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+.btn-active {
+  font-size: 16px;
+  font-weight: 600;
+  color: #131313;
+  padding: 1em;
+  border: 1px solid #131313;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+.box-selected {
+  background-color: #5a5a4d !important;
+  color: white !important;
+}
+
+/* HEADER SECTION */
+header h1 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* GAMEBOARD SECTION */
+#game-wrapper {
+  width: 100%;
+}
+#gameboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 43%;
+  margin: 0 auto;
+  grid-gap: 1.5vh;
+  margin-top: 1.5rem;
+}
+
+#gameboard .box {
+  border: transparent;
+  border-radius: 8px;
+  height: 16vh;
+  background-color: #efefe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 630;
+  cursor: pointer;
+}
+
+/* MISTAKES COUNTER SECTION */
+
+#mistakes-module {
+  margin-top: 0.5rem;
+}
+#mistakes-module span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  color: #5a594e;
+}
+
+/* GAMEPLAY BTNS SECTION */
+
+#gameplay-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 0.5rem;
+}
+
+/* whitespace section */
+#white-space {
+  height: 50vh;
+}
